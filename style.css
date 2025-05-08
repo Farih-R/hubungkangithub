@@ -30,3 +30,122 @@
     background: #333;
     color: #fff;
   }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #1d1d1d;
+  }
+  
+  .trusted {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .trusted p {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .logos img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .main-content {
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left .image-box {
+    position: relative;
+    max-width: 300px;
+  }
+  
+  .image-box img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .chart-card {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .chart-card h2 {
+    margin: 5px 0;
+  }
+  
+  .chart-card span {
+    color: green;
+    font-size: 14px;
+  }
+  
+  .chart {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+  
+  .right {
+    max-width: 500px;
+  }
+  
+  .right h2 {
+    font-size: 28px;
+    color: #1d1d1d;
+  }
+  
+  .right p {
+    margin: 20px 0;
+    color: #555;
+  }
+  
+  .right ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .right ul li {
+    margin-bottom: 10px;
+    background: #fdeeee;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .right ul li span {
+    color: #000;
+    margin-right: 10px;
+  }
+  
+  .contact-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #f5dede;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
